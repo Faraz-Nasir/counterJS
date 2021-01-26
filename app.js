@@ -37,3 +37,7 @@ decrease.addEventListener("click",function(event){
     numbertext.style.color="grey"
     }
 })
+reset.addEventListener("click",function(event){
+    numbertext.textContent=0
+    numbertext.style.color='grey'
+})
